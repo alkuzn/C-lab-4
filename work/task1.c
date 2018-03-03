@@ -1,4 +1,5 @@
 #include "task1.h"
+#include <stdio.h>
 #include <string.h>
 
 void lineSort(char *str[], int size)
@@ -9,7 +10,7 @@ void lineSort(char *str[], int size)
 	{
 		for (int y = i + 1; y < size; ++y)
 		{
-			if (strlen(str[i]) < strlen(str[y]))
+			if (strlen(str[y]) < strlen(str[i]))
 			{
 				buf = str[i];
 				str[i] = str[y];

@@ -1,5 +1,4 @@
 #include <string.h>
-#include <stdio.h>
 #include "task2.h"
 
 char* reverseWords(char *in, char *out)

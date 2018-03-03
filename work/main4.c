@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "task4.h"
 #include "task1.h"
 

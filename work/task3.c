@@ -1,4 +1,5 @@
 #include <string.h>
+#include "task3.h"
 
 int isPalindrome(char *str)
 {
