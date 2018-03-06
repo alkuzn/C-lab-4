@@ -3,7 +3,7 @@
 
 int isPalindrome(char *str)
 {
-	char *end = str + (strlen(str) - 2);
+	char *end = str + strlen(str) - 1;
 	while (str < end)
 	{
 		if (*str++ != *end--)

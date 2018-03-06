@@ -27,8 +27,11 @@ char* reverseWords(char *in, char *out)
 		{			
 			*buf_out++ = *pfirst_symbol++;
 		}
-		*buf_out++ = ' '; 
+		if (i)
+			*buf_out++ = ' '; 
+		else 
+			*buf_out = '\0';
 	}
-	*buf_out = '\0';
+	
 	return out;
 }
